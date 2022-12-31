@@ -265,7 +265,7 @@ def show_collapsed(tileMap):
 
 def clear_output():
     # location
-    path = "D:\Projects\PythonProjects\WaveFunCollapse\output"
+    path = "D:\Projects\WaveFunctionCollapse\output"
  
     # removing directory
     shutil.rmtree(path)
@@ -275,7 +275,7 @@ def clear_output():
 
 clear_output()
 
-path = r"D:\Projects\PythonProjects\WaveFunCollapse"
+path = r"D:\Projects\WaveFunctionCollapse"
 folder = r"\sourceTiles2"
 
 json_file = path + folder + "\info.json"
