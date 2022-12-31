@@ -276,15 +276,15 @@ def clear_output():
 clear_output()
 
 path = r"D:\Projects\WaveFunctionCollapse"
-folder = r"\sourceTiles2"
+folder = r"\sourceTilesBeach"
 
 json_file = path + folder + "\info.json"
 
 tileSet = jsonloader.json_to_tile_array(json_file)
 n = jsonloader.number_of_tiles(json_file)
 
-w = 10
-h = 10
+w = 100
+h = 100
 
 tileWidth = 8
 
